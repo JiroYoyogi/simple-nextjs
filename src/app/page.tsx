@@ -1,5 +1,8 @@
 import Image from "next/image";
-export const dynamic = 'force-dynamic';  
+
+// 都度レンダリング
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
 
   const d = new Date().toISOString();
@@ -23,7 +26,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li className="tracking-[-.01em]">
+          <li className="mb-2 tracking-[-.01em]">
             Save and see your changes instantly.
           </li>
           <li className="tracking-[-.01em]">
